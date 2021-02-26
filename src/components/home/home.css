@@ -1,0 +1,65 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-gridbtn {
+    width: 66px;
+    margin-top: 77px;
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridbtn_elem {
+    height: 23px;
+    width: 23px;
+    position: relative;
+}
+
+.gridbtn_elem:first-child{
+    opacity: .3;
+}
+
+.gridbtn_elem-bk {
+    position: absolute;
+    background-color: #000000;
+    height: 10px;
+}
+
+.bk-2 {
+    width: 100%;
+}
+
+.bk-2:last-child {
+    bottom: 0;
+}
+
+.bk-4 {
+    width: 10px
+}
+
+.bk-4:nth-child(2) {
+    right: 0;
+}
+
+.bk-4:nth-child(3) {
+    bottom: 0;
+}
+
+.bk-4:last-child {
+    right: 0;
+    bottom: 0;
+}
+
+/* Smartphones */
+@media (max-width: 320px) {
+    .gridbtn_elem:first-child {
+        opacity: 1;
+    }
+
+    .gridbtn_elem:last-child {
+        opacity: .5;
+    }
+}

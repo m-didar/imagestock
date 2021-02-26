@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "SF UI Display Medium";
+}
+
+.nav a {
+    display: flex;
+    vertical-align: center;
+}
+
+.nav-name {
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links_elem {
+    display: flex;
+    margin-left: 22px;
+    vertical-align: center;
+}
+
+.nav-links_elem .fas.fa-history {
+    font-size: 22px;
+}
+
+.nav-links_span {
+    margin-left: 12px;
+    font-size: 18px;
+}
